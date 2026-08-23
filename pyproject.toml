@@ -1,0 +1,10 @@
+[project]
+name = "socle-azure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-functions>=1.25.0",
+    "openai>=3.3.1",
+]
