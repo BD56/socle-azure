@@ -94,7 +94,7 @@ La documentation officielle présente Azure OpenAI comme accessible aux comptes
 c'est une capacité jamais attribuée. Vérifié sur plusieurs modèles et plusieurs
 régions. Le déploiement échoue avec « Quota insuffisant ».
 
-**2. Les modèles du catalogue passant par la Place de marché sont refusés.** Tenté avec
+**2. Les modèles du catalogue passant par la marketplace sont refusés.** Tenté avec
 Ministral 3B :
 
 > Purchase failed because there is no valid payment method associated with this Azure
@@ -104,7 +104,7 @@ Un abonnement gratuit ne peut souscrire à aucune offre d'éditeur tiers, quel q
 le crédit disponible.
 
 **3. Les modèles publiés par Microsoft, eux, passent.** La famille Phi ne transite pas
-par la Place de marché, donc ni la restriction de souscription ni les quotas Azure
+par la marketplace, donc ni la restriction de souscription ni les quotas Azure
 OpenAI ne s'appliquent. `Phi-4-mini-instruct` en « Standard global » se déploie sans
 rien demander à personne.
 
